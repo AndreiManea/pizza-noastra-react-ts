@@ -7,7 +7,7 @@ function ExtrasCrispy({ extras }) {
       <ExtrasContainer>
         <SubTitle>Extras Crispy</SubTitle>
         {extras
-          .filter((extra) => extra.type == "crispy")
+          .filter((extra) => extra.type === "crispy")
           .map((extra) => {
             return (
               <Extras key={extra.id}>

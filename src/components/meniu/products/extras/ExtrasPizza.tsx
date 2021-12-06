@@ -11,7 +11,7 @@ function ExtrasPizza({ extras }) {
           <Weight>MARE</Weight>
         </WeightContainer>
         {extras
-          .filter((extra) => extra.type == "pizza")
+          .filter((extra) => extra.type === "pizza")
           .map((extra) => {
             return (
               <Extras key={extra.id}>

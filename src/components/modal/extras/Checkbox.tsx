@@ -66,6 +66,7 @@ function Checkbox({ name, id, price }) {
         extras: [],
       });
     }
+    // eslint-disable-next-line
   }, [counter, mProduct.size]);
 
   const renderCheckbox = () => {

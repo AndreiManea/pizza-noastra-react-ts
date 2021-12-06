@@ -14,6 +14,7 @@ import {
 
 function CrispyExtras() {
   const [display, setDisplay] = useState(false);
+  // eslint-disable-next-line
   const [crispyExtras, setExtras] = useState(
     extras.filter((extra) => extra.type === "crispy")
   );
@@ -40,6 +41,7 @@ function CrispyExtras() {
 
   useEffect(() => {
     mProduct.sauce || mProduct.bucket ? setDisplay(true) : setDisplay(false);
+    // eslint-disable-next-line
   }, [mProduct.sauce]);
 
   return (

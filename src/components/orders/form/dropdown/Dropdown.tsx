@@ -1,5 +1,5 @@
 import React from "react";
-import { useImperativeHandle, useState } from "react";
+import { useState } from "react";
 import styled from "styled-components";
 import { Button, Image, Props } from "../../../../styles/generalStyles";
 import { useRecoilState } from "recoil";

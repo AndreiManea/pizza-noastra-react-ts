@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { useRecoilValue } from "recoil";
-import styled from "styled-components";
 import { modalProduct } from "../../../recoil/recoil";
 import { extras } from "../../../data";
 import Checkbox from "./Checkbox";

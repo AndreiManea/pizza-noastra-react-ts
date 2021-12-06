@@ -1,4 +1,3 @@
-import { useState } from "react";
 import styled from "styled-components";
 import { Image, Props, Title } from "../../styles/generalStyles";
 import OrdersForm from "./form/OrdersForm";
@@ -74,7 +73,7 @@ function Order({ open, setOpen }) {
               marginBottom: "15px",
             }}
           >
-            * Comenzile sub 50 de lei inafara Ghiorocului sau Cuvinilui vor avea
+            * Comenzile sub 50 de lei inafara Ghiorocului sau Cuvinului vor avea
             o taxa de transport de 10 lei.
           </span>
         </OrdersDescription>
