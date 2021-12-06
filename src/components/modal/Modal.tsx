@@ -139,7 +139,10 @@ function Modal() {
   };
 
   return (
-    <Container display={type !== null}>
+    <Container
+      style={{ paddingTop: type === EModalType.PIZZA ? "10px" : null }}
+      display={type !== null}
+    >
       <Content>
         <CloseBtn onClick={closeBtnHandler}>
           <Image

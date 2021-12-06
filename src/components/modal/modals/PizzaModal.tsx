@@ -31,6 +31,7 @@ const PizzaContainer = styled(ProductContainer)`
   padding-left: 5px;
   width: 80vw;
   min-height: 68vh;
+  overflow: scroll;
   @media screen and (min-width: 768px) {
     width: 100%;
   }
